@@ -1,0 +1,175 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+#nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#background{
+    width: 100%;
+    height: 500px;
+    background-image:url(/assets/kw-background.png) ;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-size: 100% 100%;
+}
+#background div{
+    color: white;
+    padding: 61px 76px;
+}
+#logo{
+    padding-left: 79px;
+}
+span{
+    display: flex;
+    align-items: center; margin-right: 100px;
+}
+.parent{
+    padding: 76px;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+.text{
+    display: block;
+    margin: 0; 
+    margin-bottom: 10px;
+}
+.wrap{
+    /* width: 1367px; 
+    height: 429px; */
+    display: flex; justify-content: space-between;
+    text-align: center;
+}
+.image{
+    border-radius: 10px;
+}
+.books h3{
+    margin: 0;
+    margin-bottom: 10px;font-size: 18.72px;
+}
+.books h4{
+    margin: 0;
+    color: grey;
+}
+.books div{
+    display: flex; justify-content: space-between;
+    align-items: center;
+    width: 300px; 
+    height: 63.2px;
+}
+.books div p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.books div button{
+    width: 72px; 
+    height: 34px; background-color: #6095FF; border: none;
+    border-radius: 10px;font-size: 16px; 
+    padding: 7px; 
+    display: flex;
+}
+.books div button h6{
+    margin: 0; 
+    font-size: 17px;
+    color: white;
+}
+footer{
+    /* background-color: black; */
+    background-image: url(http://i1.faceprep.in/prograd-junior/footer-bg.png);
+    background-size: 100% 100%;
+    display: flex;justify-content:space-between;
+    padding: 0 75.95px ;
+    /* border-top: 2px red solid; */
+}
+#hip,#hip1,#hip2,#hip3,#hip4,#hip5{
+    width: 200px;
+}
+#bot h2{
+    color: white; 
+    font-family: 'PlayfairDisplay', serif;
+}
+#bot img{
+    border-radius: 50%;
+}
+#bot2{
+    color: white;
+    text-align: end;
+    align-items: center;
+    padding: 45px;
+}
+#bot2 p{
+    margin: 0;
+}
+#top{
+    font-size: 62px;    font-family: 'PlayfairDisplay', serif;
+    margin: 0;
+}
+#top2{
+    font-size: 23px;    font-family: 'PlayfairDisplay', serif;
+}
+@media screen and (max-width:600px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap{
+        flex-direction: column;
+justify-content: center;
+    }
+    .text{
+        text-align: center;
+    }
+    #bot h2{
+        text-align: center;
+        margin: 0;
+    }
+    #bot2{
+        padding: 35px 20px 0 0;
+    }
+    #bot2 h3{
+    }
+    footer{
+        padding: 0;
+    }
+    span{
+    margin-right: 0;   
+ }
+
+ #background{
+    width: 100vw;
+    height: 200px;
+ }
+ #hip,#hip1,#hip2,#hip3,#hip4,#hip5{
+    width: 200px;
+    margin-left: 45px;
+ }
+ #top{
+    font-size: 25px;    font-family: 'PlayfairDisplay', serif;
+    margin: 0;
+ }
+ #top2{
+    font-size: 15px;     font-family: 'Rubik', sans-serif;
+    margin-top: 10px;
+ }
+ #background div{
+    color: white;
+    padding: 25px;
+}
+#logo{
+    padding: 0;
+}
+
+
+}
